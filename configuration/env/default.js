@@ -38,15 +38,15 @@ module.exports = {
                 colorize: true,
               },
             },
-            {
-              type: 'File',
-              transport: {
-                name: 'file-log',
-                level: 'debug',
-                filename: path.join(LOGS_DIRECTORY, 'logs.json'),
-                maxsize: 1024 * 1024 * 5,
-              },
-            },
+            // {
+            //   type: 'File',
+            //   transport: {
+            //     name: 'file-log',
+            //     level: 'debug',
+            //     filename: path.join(LOGS_DIRECTORY, 'logs.json'),
+            //     maxsize: 1024 * 1024 * 5,
+            //   },
+            // },
           ],
         },
       },
