@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp');
 
-const BASE_LOGS_DIRECTORY = process.env.LOG_FOLDER || './../data/logs';
+const BASE_LOGS_DIRECTORY = process.env.LOG_FOLDER || './data/logs';
 console.log("BASE_LOGS_DIRECTORY" ,BASE_LOGS_DIRECTORY);
-const LOGS_DIRECTORY = path.join(BASE_LOGS_DIRECTORY, process.env.NODE_APP || 'slack-apps');
+const LOGS_DIRECTORY = path.join(BASE_LOGS_DIRECTORY, process.env.NODE_APP || 'ASPIRE-RATING');
 
 console.log('LOGS_DIRECTORY:', LOGS_DIRECTORY);
 
