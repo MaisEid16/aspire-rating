@@ -1,4 +1,5 @@
 const configuration = require('../../../configuration');
+console.log("load configration");
 const errors = require('../errors');
 const express = require('./express');
 const httpStatusCodes = require('../http/statusCodes');
