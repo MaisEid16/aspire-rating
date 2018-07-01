@@ -2,7 +2,8 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 
-const configFolder = path.resolve(__dirname, './env');
+//const configFolder = path.resolve(__dirname, './env');
+const configFolder ='./env';
 
 /**
  * Validate NODE_ENV existence
