@@ -1,9 +1,9 @@
 const _ = require('lodash');
 const ControllerBase = require('./../../../framework/controller/controllerBase');
-const Nominee = require('./../models/nominee');
-const UserProfile = require('./../models/userProfile');
-const schema = require('./../schema/nominees');
-const actions = require('./../repository/actions');
+const Nominee = require('../models/nominee');
+const UserProfile = require('../models/userProfile');
+const schema = require('../schema/nominees');
+const actions = require('../repository/actions');
 
 class Nominees extends ControllerBase {
 	static get schema() {

@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const dbMethod = require('./dbMethods');
 const slackMethod = require('./slackMethods');
-const Nominee = require('./../models/Nominee');
+const Nominee = require('./../models/nominee');
 
 /*  GetNomineesInfo
 *    get  Nominees for this month
