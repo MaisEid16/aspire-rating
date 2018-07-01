@@ -10,10 +10,10 @@ module.exports = {
     },
   },
   sequalizer: {
-    host: 'ec2-54-235-244-185.compute-1.amazonaws.com',
-    database: 'd32n0ji74ul5nq',
-    username: 'frvlmckhgbjkzf',
-    password: 'b9351aa92cfd386c1deee435d665976aba4b47dd2f1cd3cfe180f8d87e15b907',
+    host: 'ec2-54-235-196-250.compute-1.amazonaws.com',
+    database: 'd8j674s6g3eoj1',
+    username: 'pyydgpmntmjvpf',
+    password: '9f1835377cf45a867c09f16b30f99eb9af9c3357297f4545089ea63d9d3b4012',
     port: 5432,
     pool: {
       max: 5,
