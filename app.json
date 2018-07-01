@@ -1,6 +1,7 @@
 {
     "name": "Start on Heroku: Node.js",
     "description": "A barebones Node.js app using Express 4",
+    "logo": "https://a.slack-edge.com/f30f/img/services/api_200.png",
     "repository": "https://github.com/MaisEid16/aspire-rating.git",
     "keywords": ["node", "express", "heroku"],
     "success_url": "/",
