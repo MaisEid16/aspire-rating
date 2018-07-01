@@ -4,7 +4,8 @@ const mkdirp = require('mkdirp');
 
 const BASE_LOGS_DIRECTORY = process.env.LOG_FOLDER || '../../data/logs';
 const LOGS_DIRECTORY = path.join(BASE_LOGS_DIRECTORY, process.env.NODE_APP || 'slack-apps');
-if (!fs.existsSync(LOGS_DIRECTORY)) mkdirp.sync(LOGS_DIRECTORY);
+console.log("LOGS_DIRECTORY",LOGS_DIRECTORY);
+//if (!fs.existsSync(LOGS_DIRECTORY)) mkdirp.sync(LOGS_DIRECTORY);
 
 module.exports = {
   port: process.env.PORT || 3000,
