@@ -1,13 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp');
-//const BASE_LOGS_DIRECTORY = process.env.LOG_FOLDER || './../data/logs';
 
-const BASE_LOGS_DIRECTORY = './logs';
-
-//const LOGS_DIRECTORY = path.join(BASE_LOGS_DIRECTORY, process.env.NODE_APP || 'ASPIRE-RATING');
-
-const LOGS_DIRECTORY = BASE_LOGS_DIRECTORY;
+const BASE_LOGS_DIRECTORY = process.env.LOG_FOLDER || '../../data/logs';
+const LOGS_DIRECTORY = path.join(BASE_LOGS_DIRECTORY, process.env.NODE_APP || 'slack-apps');
 if (!fs.existsSync(LOGS_DIRECTORY)) mkdirp.sync(LOGS_DIRECTORY);
 
 module.exports = {
