@@ -5,7 +5,7 @@
 
 export const environment = {
   production: false,
-  nomineesApiUrl: 'http://localhost:3000/api/v1/nominees/:teamId',
+  nomineesApiUrl: 'https://aspire-rating.herokuapp.com/api/v1/nominees/:teamId',
   teamId: 'TAPHRRP8W'
 
 };
